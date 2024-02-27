@@ -36,6 +36,27 @@ body > div {
   color: white;
 }
 
+.green {
+  background-color: green;
+  color: white;
+}
+
+.black {
+  background-color: black;
+  color: white;
+}
+
 .home{
   background-color: tan;
+}
+
+#stickyFooter > div {
+  display: flex;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: lightgrey;
+  color: white;
+  text-align: center;
 }
